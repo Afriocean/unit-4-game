@@ -1,0 +1,66 @@
+
+.cry-img {
+
+	height: 200px;
+	width: 200px;
+
+}
+
+.back {
+
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+
+body {
+
+	background-image: url("images/swirl.png");
+	margin-left: 50px;
+    background-color: red
+}
+
+#title {
+
+	padding: 20px;
+	background-color: white;
+	float: left;
+}
+
+#instr-back {
+
+	background-color: white;
+	float: left;
+}
+
+#target-back  {
+
+	background-color: white;
+	float: left;
+
+}
+
+#counter-back  {
+
+	background-color: white;
+	float: left;
+	margin-left: 40px;
+
+
+}
+
+#score {
+
+	background-color: white;
+	float: left;
+
+
+}
+
+#curScore {
+
+	padding: 10px;
+	background-color: white;
+	float: left;
