@@ -1,6 +1,8 @@
 
 var winCounter = 0;
 var lossCounter = 0;
+var targetScore = 0;
+var currentScore = 0;
 var targetNumber = Math.floor(Math.random() * 101) + 19;
 $("#randomNumber").text(targetNumber);
 
@@ -19,9 +21,11 @@ var counter = 0;
 $("#finalTotal").text(counter);
 
 function restartGame() {
+  var targetScore = 0;
+  var currentScore = 0;
 
-targetNumber = Math.floor(Math.random() * 101) + 19;
-$("#targetNumber").text(targetNumber);
+targetScore = Math.floor(Math.random() * (120 -19 + 1)) + 19;
+$("#randomNumber").text(targetScore);
 Crys1 = Math.floor(Math.random() * 11) + 1;
 Crys2 = Math.floor(Math.random() * 11) + 1;
 Crys3 = Math.floor(Math.random() * 11) + 1;
